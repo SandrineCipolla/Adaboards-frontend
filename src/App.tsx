@@ -1,8 +1,9 @@
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-import './App.css'
+import './index.css'
 import {LandingPage} from "./pages/LandingPage.tsx";
 import {Header} from "./components/Header.tsx";
+import {HomePage} from "./pages/HomePage.tsx";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         <Header/>
         <main>
           <Routes>
-            <Route path="/" element={<LandingPage />} />
+            {/*<Route path="/" element={<LandingPage />} />*/}
+            <Route path="/" element={<HomePage />} />
           </Routes>
         </main>
       </div>

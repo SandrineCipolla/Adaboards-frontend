@@ -1,14 +1,26 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background:#29262C;
+  --color-text:#ffffff;
+  --color-error:#FF7B7B;
+  --color-succes:#CAFCA0;
+  --color-primary:#C6ABFF;
+  --color-todo:#FFE58F;
+  --color-doing:#A0FCF3;
+
+  --font-family: Gabarito, Gloria Hallelujah, sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  @apply bg-background text-text; /* cfr dans tailwind.config.ts */
+  @apply bg-background;
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100%;
 }
 
 :root {
@@ -25,6 +37,7 @@ body {
 
 #root {
   max-width: 100%;
+  height: auto;
   margin: auto;
   padding: 2rem;
   text-align: center;
