@@ -1,12 +1,11 @@
 import React from "react";
+import { HeaderSvg } from "../assets/icons.tsx";
 
 export const Header: React.FC = () => {
     return (
         <header className="text-white flex justify-between items-center p-2">
             <div className="flex">
-                <svg width="20" height="20" viewBox="0 0 35 31" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mr-2">
-                    <path d="M0 4.42857C0 1.98594 1.96191 0 4.375 0H30.625C33.0381 0 35 1.98594 35 4.42857V26.5714C35 29.0141 33.0381 31 30.625 31H4.375C1.96191 31 0 29.0141 0 26.5714V4.42857ZM4.375 8.85714V26.5714H15.3125V8.85714H4.375ZM30.625 8.85714H19.6875V26.5714H30.625V8.85714Z" fill="white"/>
-                </svg>
+                <div dangerouslySetInnerHTML={{ __html: HeaderSvg }} />
                 <p className="text-l font-bold">AdaBoards</p>
             </div>
             <div>
