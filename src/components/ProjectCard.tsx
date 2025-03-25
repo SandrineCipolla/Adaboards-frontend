@@ -17,8 +17,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ name }) => {
 
             <p className="text-sm text-text">"Edit ...."</p>
             <div className="flex space-x-4 mt-2">
-            <p className="mt-2 bg-text rounded-2xl"> Ada Lovelace</p>
-            <p className="mt-2 bg-text rounded-2xl"> Dorothy Vaughan</p>
+                <span className="mt-2 bg-text rounded-2xl"> Ada Lovelace</span>
+            <span className="mt-2 bg-text rounded-2xl"> Dorothy Vaughan</span>
             </div>
         </div>
     );
