@@ -35,9 +35,9 @@ body {
 }
 
 :root {
-  font-family: Gabarito, Gloria Hallelujah, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /*font-family: Gabarito, Gloria Hallelujah, sans-serif;*/
+  /*line-height: 1.5;*/
+  /*font-weight: 400;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -53,4 +53,31 @@ body {
   text-align: center;
 }
 
+p {
+  font-family: var(--font-body), sans-serif;
+  font-weight: var(--font-body-weight);
+  font-size:1rem ;
+  color: var(--color-text);
+}
+
+h3{
+  font-family: var(--font-title), sans-serif;
+  font-weight: var(--font-title-weight);
+  font-size:2.1rem ;
+  color: var(--color-text);
+}
+
+h4 {
+  font-family: var(--font-body), sans-serif;
+  font-weight: var(--font-body-weight);
+  font-size:1.3rem ;
+  color: var(--color-text);
+}
+
+h1 {
+  font-family: var(--font-fancy), sans-serif;
+    font-weight: var(--font-fancy-weight);
+  font-size:1.5rem ;
+    color: var(--color-text);
+}
 

@@ -4,6 +4,7 @@ import './index.css'
 import {LandingPage} from "./pages/LandingPage.tsx";
 import {Header} from "./components/Header.tsx";
 import {HomePage} from "./pages/HomePage.tsx";
+import {LoginPage} from "./pages/LoginPage.tsx";
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         <main>
           <Routes>
             {/*<Route path="/" element={<LandingPage />} />*/}
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<LoginPage />} />
+            <Route path="/boards" element={<HomePage />} />
           </Routes>
         </main>
       </div>
