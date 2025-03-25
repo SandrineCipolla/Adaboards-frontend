@@ -23,7 +23,7 @@ export const HomePage: React.FC = () => {
 
     return (
         <div>
-            <h1 className="text-text">Hello, Ada Lovelace!</h1>
+            <h1 className="text-text font-fancy">Hello, Ada Lovelace!</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
                 {boards.map((board) => (
                     <ProjectCard key={board.id} name={board.name} />

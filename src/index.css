@@ -10,16 +10,15 @@
   --color-doing:#A0FCF3;
   --color-card:rgba(255, 255, 255, 0.2);
 
-  --font-family: Gabarito, Gloria Hallelujah, sans-serif;
-  --font-title: 'Gabarito', sans-serif;
+  --font-title: 'Gabarito', system-ui,sans-serif;
   --font-title-weight: 700;
-  --font-title-size: 48px;
-  --font-body: 'Gabarito', sans-serif;
+  --font-title-size: 3rem;
+  --font-body: 'Gabarito', system-ui,sans-serif;
   --font-body-weight: 400;
-  --font-body-size: 48px;
+  --font-body-size: 3rem;
   --font-fancy: 'Gloria Hallelujah', sans-serif;
   --font-fancy-weight: 400;
-  --font-fancy-size: 42px;
+  --font-fancy-size: 2.5rem;
 }
 
 
@@ -32,7 +31,7 @@ body {
   @apply bg-background;
   margin: 0;
   min-width: 320px;
-  height: 100%;
+  height: 100vh;
 }
 
 :root {
