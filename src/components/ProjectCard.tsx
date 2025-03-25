@@ -10,7 +10,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ name }) => {
         <div className="p-4 rounded-lg shadow-md border-2 border-card">
             <div className="flex justify-between items-center">
                 <h2 className="text-xl text-text font-bold">{name}</h2>
-                <button className="text-white py-2 px-4 rounded flex items-center">
+                <button className="text-white py-2 px-4 rounded flex items-center" aria-label="Delete">
                     <FontAwesomeIcon icon={faTrash} className="mr-2" />
                 </button>
             </div>

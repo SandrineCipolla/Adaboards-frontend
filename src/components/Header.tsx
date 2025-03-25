@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
                 <p className="text-l font-bold">AdaBoards</p>
             </div>
             <div>
-                <button className="bg-primary text-white py-2 px-4 rounded">Sign in</button>
+                <button className="bg-primary text-white py-2 px-4 rounded" >Sign in</button>
             </div>
         </header>
     )
